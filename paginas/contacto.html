@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pagina</title>
+</head>
+<body class="bg-black">  
+  <header class= "container-fluid">
+    <nav class="row navbar navbar-expand-lg justify-content-center h-100" data-aos="flip-up" data-aos-duration="1000">
+        <div class="row container h-100" id="contenedor">
+            <div class="row col-mb-12 col-lg-6">
+                <a class="navbar-brand" href="#"><img src="../assets/favicon.ico" class="rounded-circle" alt="logo"></a>
+            </div>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="row col-mb-12 col-lg-6 collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" aria-current="page" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./clases.html">CLASES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="./contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+</header>
+
+    <main class="container-fluid" id="contactoM">
+      <div class="row h-100 d-flex justify-content-center" data-aos="fade-up">
+        <section class="row d-flex justify-content-center">
+          <div class="row col">
+            <div class="col-12" id="formulario">
+              <div>
+                <h2>Envianos tu solicitud</h2>
+              </div>
+              <form class="row d-flex justify-content-center">
+                <div class="d-flex justify-content-center my-2 mx-5">
+                  <div class="p-2 col-sm-4 col-md-4">
+                    <label for="text" class="visually-hidden">Nombre</label>
+                    <input type="text" class="form-control" id="text" placeholder="Nombre">
+                  </div>
+                  <div class="p-2 col-sm-4 col-md-4">
+                    <label for="text" class="visually-hidden">Apellido</label>
+                    <input type="text" class="form-control" id="text" placeholder="Apellido">
+                  </div>
+                  <div class="p-2 col-sm-4 col-md-4">
+                    <label for="text" class="visually-hidden">DNI</label>
+                    <input type="number" class="form-control" id="text" placeholder="DNI">
+                  </div>
+                </div>
+                <div class="d-flex flex-row my-2">
+                  <div class="p-2 col-12">
+                    <label for="text" class="visually-hidden" id="Email">e-mail</label>
+                    <input type="text" class="form-control" id="Email" placeholder="e-mail">
+                  </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center align-items-center my- 2">
+                  <div class="p-3 col-8">
+                    <label for="text" class="visually-hidden">Telefono</label>
+                    <input type="text" class="form-control" id="telefono" placeholder="Telefono">
+                  </div>
+                  <div class="p-2 col-4">
+                    <select class="form-select" aria-label="Seleccione su pase">
+                      <option selected>Seleccione su pase</option>
+                      <option value="1">Free Box</option>
+                      <option value="2">Pase libre</option>
+                      <option value="3">Pase de 3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class=" d-flex flex-row justify-content-center align-items-end my-2">
+                  <div class="p-2 col-sm-8 col-md-8">
+                    <label for="formFile" class="form-label">Algun documento que desee enviar?</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+
+                  <div class="ol-sm-3 col-md-3">
+                    <button type="submit" class="btn btn-primary mb-3 mt-20 justify-content-center">Confirm identity</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="row d-flex justify-content-center" id="preguntas">
+              <h2 class="pb-3">Preguntas frecuentes</h2>
+              <div class="row accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      ¿Como hago para asociarme?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      Actualmente el unico medio para abonar es presencialmente en el box, pero la primera clase es gratis!</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      ¿Cómo accedo a un pase de prueba?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">La primera clase es totalmente gratuita!</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      ¿Como hago mi reserva?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">Tenes que descargarte la app en este <a href="https://nuwalomas.turnosweb.com/"><strong id="link">LINK</strong></a> y ahi mismo, luego de registrarte, podes seleccionar el turno que desees. Recorda que para cancelar el turno, debe ser un minimo de 1hr de anticipacion a la clase.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="container-fluid" data-aos="flip-up" data-aos-duration="500" >
+      <div class="row d-flex justify-content-center h-100">
+          <div class="row col-6" id="footerInfo">
+            <ul class="row col d-flex justify-content-center">
+              <h1 class="d-flex justify-content-center">Sobre Nosotros</h1>
+              <li class="row col">
+                <a href="https://www.google.com/maps/place/CrosFit+%26+Fitness+Center+Nuwa,+Av.+Hip%C3%B3lito+Yrigoyen+9385,+Buenos+Aires,+Provincia+de+Buenos+Aires/@-34.7645571,-58.4036335,15z/data=!4m6!3m5!1s0x95bcd2ed1975cf05:0x68328c215382acbe!8m2!3d-34.7645571!4d-58.4036335!16s%2Fg%2F11b7hqwdr_">Direcc: Av. Hipólito Yrigoyen 9385, Buenos Aires, Provincia de Buenos Aires</a>
+
+                <a href="https://api.whatsapp.com/send?phone=541132808382&text=Hola%2C+Nuwa%21">Tel: 011 3280-8382</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row col-6" id="footerInfo">
+            <h1 class="d-flex justify-content-center">NUWA</h1>
+            <p>Te invitamos a conocer nuestras nuevas instalaciones completamente, el box entero, vení, te esperamos para disfrutar la experiencia de pertenecer al mejor gimnasio de zona sur.</p>
+          </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

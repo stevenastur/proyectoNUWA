@@ -1,0 +1,42 @@
+#clasesM {
+    height: auto;
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: $color-letra-titulo;
+    .p{
+        color: $color-letra;
+    }
+    overflow-y: hidden;
+
+        div{
+            #sectionUno{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                #horarios{
+                    height: auto;
+                    padding: 2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                #sectionDos{
+                    #turnosWeb{
+                        background-color: rgb(61, 61, 61);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        a {
+                            color: rgb(3, 13, 109);
+                            text-decoration: none;
+                        &:hover {
+                            color: rgb(126, 7, 7);
+                            text-decoration: none;
+                        }
+                    
+                    }
+                }
+            }
+        }
+        }
+    }
+}

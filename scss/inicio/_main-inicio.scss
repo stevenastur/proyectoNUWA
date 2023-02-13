@@ -1,0 +1,77 @@
+#main-inicio{
+    height: auto;
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: $color-letra-titulo;
+    div{
+        #sectionUno{
+            height: auto;
+            justify-content: center;
+            background-color: $color-fondo;
+
+            .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+                display: flex;
+                justify-content: center;
+                background-color: $color-fondo;
+            }
+            .carousel{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            div{
+                .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            
+        }
+
+        #sectionDos{
+            height: auto;
+            justify-content: center;
+            
+            #nuestrasClases{
+                height:auto;
+            }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+            }
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: $color-fondo;
+            }
+
+            .card-body {
+                color: $color-letra;
+            }
+
+            .card-title {
+                color: $color-letra-card;
+            }
+            .text-muted{
+                color: $color-letra-card!important;
+            }
+
+            .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                color: rgb(89, 89, 153);
+            }
+
+
+            a {
+                color: $color-letra;
+                text-decoration: none;
+            
+            }
+
+        }
+    }
+    }
+}

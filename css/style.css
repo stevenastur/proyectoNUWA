@@ -1,0 +1,426 @@
+header nav {
+  height: 9vh;
+  background-color: black; }
+  header nav .navbar-nav {
+    justify-content: end; }
+  header nav .navbar > .container {
+    padding: 0 3rem; }
+  header nav .row {
+    justify-content: center; }
+  header nav div .nav-link {
+    color: white; }
+
+#main-inicio {
+  height: auto; }
+  #main-inicio .h1, #main-inicio .h2, #main-inicio .h3, #main-inicio .h4, #main-inicio .h5, #main-inicio .h6, #main-inicio h1, #main-inicio h2, #main-inicio h3, #main-inicio h4, #main-inicio h5, #main-inicio h6 {
+    color: #595999; }
+    #main-inicio .h1 div #sectionUno, #main-inicio .h2 div #sectionUno, #main-inicio .h3 div #sectionUno, #main-inicio .h4 div #sectionUno, #main-inicio .h5 div #sectionUno, #main-inicio .h6 div #sectionUno, #main-inicio h1 div #sectionUno, #main-inicio h2 div #sectionUno, #main-inicio h3 div #sectionUno, #main-inicio h4 div #sectionUno, #main-inicio h5 div #sectionUno, #main-inicio h6 div #sectionUno {
+      height: auto;
+      justify-content: center;
+      background-color: black; }
+      #main-inicio .h1 div #sectionUno .carousel-item-next, #main-inicio .h1 div #sectionUno .carousel-item-prev, #main-inicio .h1 div #sectionUno .carousel-item.active, #main-inicio .h2 div #sectionUno .carousel-item-next, #main-inicio .h2 div #sectionUno .carousel-item-prev, #main-inicio .h2 div #sectionUno .carousel-item.active, #main-inicio .h3 div #sectionUno .carousel-item-next, #main-inicio .h3 div #sectionUno .carousel-item-prev, #main-inicio .h3 div #sectionUno .carousel-item.active, #main-inicio .h4 div #sectionUno .carousel-item-next, #main-inicio .h4 div #sectionUno .carousel-item-prev, #main-inicio .h4 div #sectionUno .carousel-item.active, #main-inicio .h5 div #sectionUno .carousel-item-next, #main-inicio .h5 div #sectionUno .carousel-item-prev, #main-inicio .h5 div #sectionUno .carousel-item.active, #main-inicio .h6 div #sectionUno .carousel-item-next, #main-inicio .h6 div #sectionUno .carousel-item-prev, #main-inicio .h6 div #sectionUno .carousel-item.active, #main-inicio h1 div #sectionUno .carousel-item-next, #main-inicio h1 div #sectionUno .carousel-item-prev, #main-inicio h1 div #sectionUno .carousel-item.active, #main-inicio h2 div #sectionUno .carousel-item-next, #main-inicio h2 div #sectionUno .carousel-item-prev, #main-inicio h2 div #sectionUno .carousel-item.active, #main-inicio h3 div #sectionUno .carousel-item-next, #main-inicio h3 div #sectionUno .carousel-item-prev, #main-inicio h3 div #sectionUno .carousel-item.active, #main-inicio h4 div #sectionUno .carousel-item-next, #main-inicio h4 div #sectionUno .carousel-item-prev, #main-inicio h4 div #sectionUno .carousel-item.active, #main-inicio h5 div #sectionUno .carousel-item-next, #main-inicio h5 div #sectionUno .carousel-item-prev, #main-inicio h5 div #sectionUno .carousel-item.active, #main-inicio h6 div #sectionUno .carousel-item-next, #main-inicio h6 div #sectionUno .carousel-item-prev, #main-inicio h6 div #sectionUno .carousel-item.active {
+        display: flex;
+        justify-content: center;
+        background-color: black; }
+      #main-inicio .h1 div #sectionUno .carousel, #main-inicio .h2 div #sectionUno .carousel, #main-inicio .h3 div #sectionUno .carousel, #main-inicio .h4 div #sectionUno .carousel, #main-inicio .h5 div #sectionUno .carousel, #main-inicio .h6 div #sectionUno .carousel, #main-inicio h1 div #sectionUno .carousel, #main-inicio h2 div #sectionUno .carousel, #main-inicio h3 div #sectionUno .carousel, #main-inicio h4 div #sectionUno .carousel, #main-inicio h5 div #sectionUno .carousel, #main-inicio h6 div #sectionUno .carousel {
+        display: flex;
+        justify-content: center;
+        width: 100%; }
+      #main-inicio .h1 div #sectionUno div .carousel-item-next, #main-inicio .h1 div #sectionUno div .carousel-item-prev, #main-inicio .h1 div #sectionUno div .carousel-item.active, #main-inicio .h2 div #sectionUno div .carousel-item-next, #main-inicio .h2 div #sectionUno div .carousel-item-prev, #main-inicio .h2 div #sectionUno div .carousel-item.active, #main-inicio .h3 div #sectionUno div .carousel-item-next, #main-inicio .h3 div #sectionUno div .carousel-item-prev, #main-inicio .h3 div #sectionUno div .carousel-item.active, #main-inicio .h4 div #sectionUno div .carousel-item-next, #main-inicio .h4 div #sectionUno div .carousel-item-prev, #main-inicio .h4 div #sectionUno div .carousel-item.active, #main-inicio .h5 div #sectionUno div .carousel-item-next, #main-inicio .h5 div #sectionUno div .carousel-item-prev, #main-inicio .h5 div #sectionUno div .carousel-item.active, #main-inicio .h6 div #sectionUno div .carousel-item-next, #main-inicio .h6 div #sectionUno div .carousel-item-prev, #main-inicio .h6 div #sectionUno div .carousel-item.active, #main-inicio h1 div #sectionUno div .carousel-item-next, #main-inicio h1 div #sectionUno div .carousel-item-prev, #main-inicio h1 div #sectionUno div .carousel-item.active, #main-inicio h2 div #sectionUno div .carousel-item-next, #main-inicio h2 div #sectionUno div .carousel-item-prev, #main-inicio h2 div #sectionUno div .carousel-item.active, #main-inicio h3 div #sectionUno div .carousel-item-next, #main-inicio h3 div #sectionUno div .carousel-item-prev, #main-inicio h3 div #sectionUno div .carousel-item.active, #main-inicio h4 div #sectionUno div .carousel-item-next, #main-inicio h4 div #sectionUno div .carousel-item-prev, #main-inicio h4 div #sectionUno div .carousel-item.active, #main-inicio h5 div #sectionUno div .carousel-item-next, #main-inicio h5 div #sectionUno div .carousel-item-prev, #main-inicio h5 div #sectionUno div .carousel-item.active, #main-inicio h6 div #sectionUno div .carousel-item-next, #main-inicio h6 div #sectionUno div .carousel-item-prev, #main-inicio h6 div #sectionUno div .carousel-item.active {
+        display: flex;
+        justify-content: center; }
+    #main-inicio .h1 div #sectionDos, #main-inicio .h2 div #sectionDos, #main-inicio .h3 div #sectionDos, #main-inicio .h4 div #sectionDos, #main-inicio .h5 div #sectionDos, #main-inicio .h6 div #sectionDos, #main-inicio h1 div #sectionDos, #main-inicio h2 div #sectionDos, #main-inicio h3 div #sectionDos, #main-inicio h4 div #sectionDos, #main-inicio h5 div #sectionDos, #main-inicio h6 div #sectionDos {
+      height: auto;
+      justify-content: center; }
+      #main-inicio .h1 div #sectionDos #nuestrasClases, #main-inicio .h2 div #sectionDos #nuestrasClases, #main-inicio .h3 div #sectionDos #nuestrasClases, #main-inicio .h4 div #sectionDos #nuestrasClases, #main-inicio .h5 div #sectionDos #nuestrasClases, #main-inicio .h6 div #sectionDos #nuestrasClases, #main-inicio h1 div #sectionDos #nuestrasClases, #main-inicio h2 div #sectionDos #nuestrasClases, #main-inicio h3 div #sectionDos #nuestrasClases, #main-inicio h4 div #sectionDos #nuestrasClases, #main-inicio h5 div #sectionDos #nuestrasClases, #main-inicio h6 div #sectionDos #nuestrasClases {
+        height: auto; }
+      #main-inicio .h1 div #sectionDos .row, #main-inicio .h2 div #sectionDos .row, #main-inicio .h3 div #sectionDos .row, #main-inicio .h4 div #sectionDos .row, #main-inicio .h5 div #sectionDos .row, #main-inicio .h6 div #sectionDos .row, #main-inicio h1 div #sectionDos .row, #main-inicio h2 div #sectionDos .row, #main-inicio h3 div #sectionDos .row, #main-inicio h4 div #sectionDos .row, #main-inicio h5 div #sectionDos .row, #main-inicio h6 div #sectionDos .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; }
+      #main-inicio .h1 div #sectionDos .card, #main-inicio .h2 div #sectionDos .card, #main-inicio .h3 div #sectionDos .card, #main-inicio .h4 div #sectionDos .card, #main-inicio .h5 div #sectionDos .card, #main-inicio .h6 div #sectionDos .card, #main-inicio h1 div #sectionDos .card, #main-inicio h2 div #sectionDos .card, #main-inicio h3 div #sectionDos .card, #main-inicio h4 div #sectionDos .card, #main-inicio h5 div #sectionDos .card, #main-inicio h6 div #sectionDos .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black; }
+      #main-inicio .h1 div #sectionDos .card-body, #main-inicio .h2 div #sectionDos .card-body, #main-inicio .h3 div #sectionDos .card-body, #main-inicio .h4 div #sectionDos .card-body, #main-inicio .h5 div #sectionDos .card-body, #main-inicio .h6 div #sectionDos .card-body, #main-inicio h1 div #sectionDos .card-body, #main-inicio h2 div #sectionDos .card-body, #main-inicio h3 div #sectionDos .card-body, #main-inicio h4 div #sectionDos .card-body, #main-inicio h5 div #sectionDos .card-body, #main-inicio h6 div #sectionDos .card-body {
+        color: white; }
+      #main-inicio .h1 div #sectionDos .card-title, #main-inicio .h2 div #sectionDos .card-title, #main-inicio .h3 div #sectionDos .card-title, #main-inicio .h4 div #sectionDos .card-title, #main-inicio .h5 div #sectionDos .card-title, #main-inicio .h6 div #sectionDos .card-title, #main-inicio h1 div #sectionDos .card-title, #main-inicio h2 div #sectionDos .card-title, #main-inicio h3 div #sectionDos .card-title, #main-inicio h4 div #sectionDos .card-title, #main-inicio h5 div #sectionDos .card-title, #main-inicio h6 div #sectionDos .card-title {
+        color: #adb5bd; }
+      #main-inicio .h1 div #sectionDos .text-muted, #main-inicio .h2 div #sectionDos .text-muted, #main-inicio .h3 div #sectionDos .text-muted, #main-inicio .h4 div #sectionDos .text-muted, #main-inicio .h5 div #sectionDos .text-muted, #main-inicio .h6 div #sectionDos .text-muted, #main-inicio h1 div #sectionDos .text-muted, #main-inicio h2 div #sectionDos .text-muted, #main-inicio h3 div #sectionDos .text-muted, #main-inicio h4 div #sectionDos .text-muted, #main-inicio h5 div #sectionDos .text-muted, #main-inicio h6 div #sectionDos .text-muted {
+        color: #adb5bd !important; }
+      #main-inicio .h1 div #sectionDos .h1, #main-inicio .h1 div #sectionDos .h2, #main-inicio .h1 div #sectionDos .h3, #main-inicio .h1 div #sectionDos .h4, #main-inicio .h1 div #sectionDos .h5, #main-inicio .h1 div #sectionDos .h6, #main-inicio .h1 div #sectionDos h1, #main-inicio .h1 div #sectionDos h2, #main-inicio .h1 div #sectionDos h3, #main-inicio .h1 div #sectionDos h4, #main-inicio .h1 div #sectionDos h5, #main-inicio .h1 div #sectionDos h6, #main-inicio .h2 div #sectionDos .h1, #main-inicio .h2 div #sectionDos .h2, #main-inicio .h2 div #sectionDos .h3, #main-inicio .h2 div #sectionDos .h4, #main-inicio .h2 div #sectionDos .h5, #main-inicio .h2 div #sectionDos .h6, #main-inicio .h2 div #sectionDos h1, #main-inicio .h2 div #sectionDos h2, #main-inicio .h2 div #sectionDos h3, #main-inicio .h2 div #sectionDos h4, #main-inicio .h2 div #sectionDos h5, #main-inicio .h2 div #sectionDos h6, #main-inicio .h3 div #sectionDos .h1, #main-inicio .h3 div #sectionDos .h2, #main-inicio .h3 div #sectionDos .h3, #main-inicio .h3 div #sectionDos .h4, #main-inicio .h3 div #sectionDos .h5, #main-inicio .h3 div #sectionDos .h6, #main-inicio .h3 div #sectionDos h1, #main-inicio .h3 div #sectionDos h2, #main-inicio .h3 div #sectionDos h3, #main-inicio .h3 div #sectionDos h4, #main-inicio .h3 div #sectionDos h5, #main-inicio .h3 div #sectionDos h6, #main-inicio .h4 div #sectionDos .h1, #main-inicio .h4 div #sectionDos .h2, #main-inicio .h4 div #sectionDos .h3, #main-inicio .h4 div #sectionDos .h4, #main-inicio .h4 div #sectionDos .h5, #main-inicio .h4 div #sectionDos .h6, #main-inicio .h4 div #sectionDos h1, #main-inicio .h4 div #sectionDos h2, #main-inicio .h4 div #sectionDos h3, #main-inicio .h4 div #sectionDos h4, #main-inicio .h4 div #sectionDos h5, #main-inicio .h4 div #sectionDos h6, #main-inicio .h5 div #sectionDos .h1, #main-inicio .h5 div #sectionDos .h2, #main-inicio .h5 div #sectionDos .h3, #main-inicio .h5 div #sectionDos .h4, #main-inicio .h5 div #sectionDos .h5, #main-inicio .h5 div #sectionDos .h6, #main-inicio .h5 div #sectionDos h1, #main-inicio .h5 div #sectionDos h2, #main-inicio .h5 div #sectionDos h3, #main-inicio .h5 div #sectionDos h4, #main-inicio .h5 div #sectionDos h5, #main-inicio .h5 div #sectionDos h6, #main-inicio .h6 div #sectionDos .h1, #main-inicio .h6 div #sectionDos .h2, #main-inicio .h6 div #sectionDos .h3, #main-inicio .h6 div #sectionDos .h4, #main-inicio .h6 div #sectionDos .h5, #main-inicio .h6 div #sectionDos .h6, #main-inicio .h6 div #sectionDos h1, #main-inicio .h6 div #sectionDos h2, #main-inicio .h6 div #sectionDos h3, #main-inicio .h6 div #sectionDos h4, #main-inicio .h6 div #sectionDos h5, #main-inicio .h6 div #sectionDos h6, #main-inicio h1 div #sectionDos .h1, #main-inicio h1 div #sectionDos .h2, #main-inicio h1 div #sectionDos .h3, #main-inicio h1 div #sectionDos .h4, #main-inicio h1 div #sectionDos .h5, #main-inicio h1 div #sectionDos .h6, #main-inicio h1 div #sectionDos h1, #main-inicio h1 div #sectionDos h2, #main-inicio h1 div #sectionDos h3, #main-inicio h1 div #sectionDos h4, #main-inicio h1 div #sectionDos h5, #main-inicio h1 div #sectionDos h6, #main-inicio h2 div #sectionDos .h1, #main-inicio h2 div #sectionDos .h2, #main-inicio h2 div #sectionDos .h3, #main-inicio h2 div #sectionDos .h4, #main-inicio h2 div #sectionDos .h5, #main-inicio h2 div #sectionDos .h6, #main-inicio h2 div #sectionDos h1, #main-inicio h2 div #sectionDos h2, #main-inicio h2 div #sectionDos h3, #main-inicio h2 div #sectionDos h4, #main-inicio h2 div #sectionDos h5, #main-inicio h2 div #sectionDos h6, #main-inicio h3 div #sectionDos .h1, #main-inicio h3 div #sectionDos .h2, #main-inicio h3 div #sectionDos .h3, #main-inicio h3 div #sectionDos .h4, #main-inicio h3 div #sectionDos .h5, #main-inicio h3 div #sectionDos .h6, #main-inicio h3 div #sectionDos h1, #main-inicio h3 div #sectionDos h2, #main-inicio h3 div #sectionDos h3, #main-inicio h3 div #sectionDos h4, #main-inicio h3 div #sectionDos h5, #main-inicio h3 div #sectionDos h6, #main-inicio h4 div #sectionDos .h1, #main-inicio h4 div #sectionDos .h2, #main-inicio h4 div #sectionDos .h3, #main-inicio h4 div #sectionDos .h4, #main-inicio h4 div #sectionDos .h5, #main-inicio h4 div #sectionDos .h6, #main-inicio h4 div #sectionDos h1, #main-inicio h4 div #sectionDos h2, #main-inicio h4 div #sectionDos h3, #main-inicio h4 div #sectionDos h4, #main-inicio h4 div #sectionDos h5, #main-inicio h4 div #sectionDos h6, #main-inicio h5 div #sectionDos .h1, #main-inicio h5 div #sectionDos .h2, #main-inicio h5 div #sectionDos .h3, #main-inicio h5 div #sectionDos .h4, #main-inicio h5 div #sectionDos .h5, #main-inicio h5 div #sectionDos .h6, #main-inicio h5 div #sectionDos h1, #main-inicio h5 div #sectionDos h2, #main-inicio h5 div #sectionDos h3, #main-inicio h5 div #sectionDos h4, #main-inicio h5 div #sectionDos h5, #main-inicio h5 div #sectionDos h6, #main-inicio h6 div #sectionDos .h1, #main-inicio h6 div #sectionDos .h2, #main-inicio h6 div #sectionDos .h3, #main-inicio h6 div #sectionDos .h4, #main-inicio h6 div #sectionDos .h5, #main-inicio h6 div #sectionDos .h6, #main-inicio h6 div #sectionDos h1, #main-inicio h6 div #sectionDos h2, #main-inicio h6 div #sectionDos h3, #main-inicio h6 div #sectionDos h4, #main-inicio h6 div #sectionDos h5, #main-inicio h6 div #sectionDos h6 {
+        color: #595999; }
+      #main-inicio .h1 div #sectionDos a, #main-inicio .h2 div #sectionDos a, #main-inicio .h3 div #sectionDos a, #main-inicio .h4 div #sectionDos a, #main-inicio .h5 div #sectionDos a, #main-inicio .h6 div #sectionDos a, #main-inicio h1 div #sectionDos a, #main-inicio h2 div #sectionDos a, #main-inicio h3 div #sectionDos a, #main-inicio h4 div #sectionDos a, #main-inicio h5 div #sectionDos a, #main-inicio h6 div #sectionDos a {
+        color: white;
+        text-decoration: none; }
+
+footer div {
+  min-height: 20vh;
+  height: auto;
+  background-color: #09090a; }
+  footer div #footerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 1rem;
+    background-color: #09090a; }
+  footer div a {
+    color: white;
+    text-decoration: none; }
+  footer div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+  footer div .h1, footer div .h2, footer div .h3, footer div .h4, footer div .h5, footer div .h6, footer div h1, footer div h2, footer div h3, footer div h4, footer div h5, footer div h6 {
+    color: #595999; }
+
+header nav {
+  height: 9vh;
+  background-color: black; }
+  header nav .navbar-nav {
+    justify-content: end; }
+  header nav .navbar > .container {
+    padding: 0 3rem; }
+  header nav .row {
+    justify-content: center; }
+  header nav div .nav-link {
+    color: white; }
+
+#clasesM {
+  height: auto; }
+  #clasesM .h1, #clasesM .h2, #clasesM .h3, #clasesM .h4, #clasesM .h5, #clasesM .h6, #clasesM h1, #clasesM h2, #clasesM h3, #clasesM h4, #clasesM h5, #clasesM h6 {
+    color: #595999;
+    overflow-y: hidden; }
+    #clasesM .h1 .p, #clasesM .h2 .p, #clasesM .h3 .p, #clasesM .h4 .p, #clasesM .h5 .p, #clasesM .h6 .p, #clasesM h1 .p, #clasesM h2 .p, #clasesM h3 .p, #clasesM h4 .p, #clasesM h5 .p, #clasesM h6 .p {
+      color: white; }
+    #clasesM .h1 div #sectionUno, #clasesM .h2 div #sectionUno, #clasesM .h3 div #sectionUno, #clasesM .h4 div #sectionUno, #clasesM .h5 div #sectionUno, #clasesM .h6 div #sectionUno, #clasesM h1 div #sectionUno, #clasesM h2 div #sectionUno, #clasesM h3 div #sectionUno, #clasesM h4 div #sectionUno, #clasesM h5 div #sectionUno, #clasesM h6 div #sectionUno {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #clasesM .h1 div #sectionUno #horarios, #clasesM .h2 div #sectionUno #horarios, #clasesM .h3 div #sectionUno #horarios, #clasesM .h4 div #sectionUno #horarios, #clasesM .h5 div #sectionUno #horarios, #clasesM .h6 div #sectionUno #horarios, #clasesM h1 div #sectionUno #horarios, #clasesM h2 div #sectionUno #horarios, #clasesM h3 div #sectionUno #horarios, #clasesM h4 div #sectionUno #horarios, #clasesM h5 div #sectionUno #horarios, #clasesM h6 div #sectionUno #horarios {
+        height: auto;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      #clasesM .h1 div #sectionUno #sectionDos #turnosWeb, #clasesM .h2 div #sectionUno #sectionDos #turnosWeb, #clasesM .h3 div #sectionUno #sectionDos #turnosWeb, #clasesM .h4 div #sectionUno #sectionDos #turnosWeb, #clasesM .h5 div #sectionUno #sectionDos #turnosWeb, #clasesM .h6 div #sectionUno #sectionDos #turnosWeb, #clasesM h1 div #sectionUno #sectionDos #turnosWeb, #clasesM h2 div #sectionUno #sectionDos #turnosWeb, #clasesM h3 div #sectionUno #sectionDos #turnosWeb, #clasesM h4 div #sectionUno #sectionDos #turnosWeb, #clasesM h5 div #sectionUno #sectionDos #turnosWeb, #clasesM h6 div #sectionUno #sectionDos #turnosWeb {
+        background-color: #3d3d3d;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        #clasesM .h1 div #sectionUno #sectionDos #turnosWeb a, #clasesM .h2 div #sectionUno #sectionDos #turnosWeb a, #clasesM .h3 div #sectionUno #sectionDos #turnosWeb a, #clasesM .h4 div #sectionUno #sectionDos #turnosWeb a, #clasesM .h5 div #sectionUno #sectionDos #turnosWeb a, #clasesM .h6 div #sectionUno #sectionDos #turnosWeb a, #clasesM h1 div #sectionUno #sectionDos #turnosWeb a, #clasesM h2 div #sectionUno #sectionDos #turnosWeb a, #clasesM h3 div #sectionUno #sectionDos #turnosWeb a, #clasesM h4 div #sectionUno #sectionDos #turnosWeb a, #clasesM h5 div #sectionUno #sectionDos #turnosWeb a, #clasesM h6 div #sectionUno #sectionDos #turnosWeb a {
+          color: #030d6d;
+          text-decoration: none; }
+          #clasesM .h1 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM .h2 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM .h3 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM .h4 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM .h5 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM .h6 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM h1 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM h2 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM h3 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM h4 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM h5 div #sectionUno #sectionDos #turnosWeb a:hover, #clasesM h6 div #sectionUno #sectionDos #turnosWeb a:hover {
+            color: #7e0707;
+            text-decoration: none; }
+
+footer div {
+  min-height: 20vh;
+  height: auto;
+  background-color: #09090a; }
+  footer div #footerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 1rem;
+    background-color: #09090a; }
+  footer div a {
+    color: white;
+    text-decoration: none; }
+  footer div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+  footer div .h1, footer div .h2, footer div .h3, footer div .h4, footer div .h5, footer div .h6, footer div h1, footer div h2, footer div h3, footer div h4, footer div h5, footer div h6 {
+    color: #595999; }
+
+header nav {
+  height: 9vh;
+  background-color: black; }
+  header nav .navbar-nav {
+    justify-content: end; }
+  header nav .navbar > .container {
+    padding: 0 3rem; }
+  header nav .row {
+    justify-content: center; }
+  header nav div .nav-link {
+    color: white; }
+
+#productosM {
+  height: 250vh; }
+  #productosM .h1, #productosM .h2, #productosM .h3, #productosM .h4, #productosM .h5, #productosM .h6, #productosM h1, #productosM h2, #productosM h3, #productosM h4, #productosM h5, #productosM h6 {
+    color: #595999; }
+    #productosM .h1 div section div, #productosM .h2 div section div, #productosM .h3 div section div, #productosM .h4 div section div, #productosM .h5 div section div, #productosM .h6 div section div, #productosM h1 div section div, #productosM h2 div section div, #productosM h3 div section div, #productosM h4 div section div, #productosM h5 div section div, #productosM h6 div section div {
+      justify-content: center; }
+
+footer div {
+  min-height: 20vh;
+  height: auto;
+  background-color: #09090a; }
+  footer div #footerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 1rem;
+    background-color: #09090a; }
+  footer div a {
+    color: white;
+    text-decoration: none; }
+  footer div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+  footer div .h1, footer div .h2, footer div .h3, footer div .h4, footer div .h5, footer div .h6, footer div h1, footer div h2, footer div h3, footer div h4, footer div h5, footer div h6 {
+    color: #595999; }
+
+header nav {
+  height: 9vh;
+  background-color: black; }
+  header nav .navbar-nav {
+    justify-content: end; }
+  header nav .navbar > .container {
+    padding: 0 3rem; }
+  header nav .row {
+    justify-content: center; }
+  header nav div .nav-link {
+    color: white; }
+
+#mainNosotros {
+  height: auto; }
+  #mainNosotros .h1, #mainNosotros .h2, #mainNosotros .h3, #mainNosotros .h4, #mainNosotros .h5, #mainNosotros .h6, #mainNosotros h1, #mainNosotros h2, #mainNosotros h3, #mainNosotros h4, #mainNosotros h5, #mainNosotros h6 {
+    color: #595999;
+    display: flex;
+    justify-content: center; }
+    #mainNosotros .h1 .p, #mainNosotros .h2 .p, #mainNosotros .h3 .p, #mainNosotros .h4 .p, #mainNosotros .h5 .p, #mainNosotros .h6 .p, #mainNosotros h1 .p, #mainNosotros h2 .p, #mainNosotros h3 .p, #mainNosotros h4 .p, #mainNosotros h5 .p, #mainNosotros h6 .p {
+      display: flex;
+      justify-content: center;
+      color: white; }
+      #mainNosotros .h1 .p div, #mainNosotros .h2 .p div, #mainNosotros .h3 .p div, #mainNosotros .h4 .p div, #mainNosotros .h5 .p div, #mainNosotros .h6 .p div, #mainNosotros h1 .p div, #mainNosotros h2 .p div, #mainNosotros h3 .p div, #mainNosotros h4 .p div, #mainNosotros h5 .p div, #mainNosotros h6 .p div {
+        display: flex;
+        justify-content: center;
+        color: white; }
+        #mainNosotros .h1 .p div #nosotrosM, #mainNosotros .h2 .p div #nosotrosM, #mainNosotros .h3 .p div #nosotrosM, #mainNosotros .h4 .p div #nosotrosM, #mainNosotros .h5 .p div #nosotrosM, #mainNosotros .h6 .p div #nosotrosM, #mainNosotros h1 .p div #nosotrosM, #mainNosotros h2 .p div #nosotrosM, #mainNosotros h3 .p div #nosotrosM, #mainNosotros h4 .p div #nosotrosM, #mainNosotros h5 .p div #nosotrosM, #mainNosotros h6 .p div #nosotrosM {
+          color: white; }
+          #mainNosotros .h1 .p div #nosotrosM #presentacionNosotros, #mainNosotros .h2 .p div #nosotrosM #presentacionNosotros, #mainNosotros .h3 .p div #nosotrosM #presentacionNosotros, #mainNosotros .h4 .p div #nosotrosM #presentacionNosotros, #mainNosotros .h5 .p div #nosotrosM #presentacionNosotros, #mainNosotros .h6 .p div #nosotrosM #presentacionNosotros, #mainNosotros h1 .p div #nosotrosM #presentacionNosotros, #mainNosotros h2 .p div #nosotrosM #presentacionNosotros, #mainNosotros h3 .p div #nosotrosM #presentacionNosotros, #mainNosotros h4 .p div #nosotrosM #presentacionNosotros, #mainNosotros h5 .p div #nosotrosM #presentacionNosotros, #mainNosotros h6 .p div #nosotrosM #presentacionNosotros {
+            display: flex;
+            justify-content: center; }
+          #mainNosotros .h1 .p div #nosotrosM #formularioN, #mainNosotros .h2 .p div #nosotrosM #formularioN, #mainNosotros .h3 .p div #nosotrosM #formularioN, #mainNosotros .h4 .p div #nosotrosM #formularioN, #mainNosotros .h5 .p div #nosotrosM #formularioN, #mainNosotros .h6 .p div #nosotrosM #formularioN, #mainNosotros h1 .p div #nosotrosM #formularioN, #mainNosotros h2 .p div #nosotrosM #formularioN, #mainNosotros h3 .p div #nosotrosM #formularioN, #mainNosotros h4 .p div #nosotrosM #formularioN, #mainNosotros h5 .p div #nosotrosM #formularioN, #mainNosotros h6 .p div #nosotrosM #formularioN {
+            display: flex;
+            justify-content: flex-end; }
+            #mainNosotros .h1 .p div #nosotrosM #formularioN #nombreF, #mainNosotros .h2 .p div #nosotrosM #formularioN #nombreF, #mainNosotros .h3 .p div #nosotrosM #formularioN #nombreF, #mainNosotros .h4 .p div #nosotrosM #formularioN #nombreF, #mainNosotros .h5 .p div #nosotrosM #formularioN #nombreF, #mainNosotros .h6 .p div #nosotrosM #formularioN #nombreF, #mainNosotros h1 .p div #nosotrosM #formularioN #nombreF, #mainNosotros h2 .p div #nosotrosM #formularioN #nombreF, #mainNosotros h3 .p div #nosotrosM #formularioN #nombreF, #mainNosotros h4 .p div #nosotrosM #formularioN #nombreF, #mainNosotros h5 .p div #nosotrosM #formularioN #nombreF, #mainNosotros h6 .p div #nosotrosM #formularioN #nombreF {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              align-content: center; }
+              #mainNosotros .h1 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros .h2 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros .h3 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros .h4 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros .h5 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros .h6 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros h1 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros h2 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros h3 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros h4 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros h5 .p div #nosotrosM #formularioN #nombreF .form-control, #mainNosotros h6 .p div #nosotrosM #formularioN #nombreF .form-control {
+                display: flex;
+                padding: 0;
+                border-radius: 0.3rem;
+                color: #000000;
+                height: 4rem;
+                width: 12rem; }
+            #mainNosotros .h1 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros .h2 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros .h3 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros .h4 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros .h5 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros .h6 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros h1 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros h2 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros h3 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros h4 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros h5 .p div #nosotrosM #formularioN div #comentarioF, #mainNosotros h6 .p div #nosotrosM #formularioN div #comentarioF {
+              border-radius: 0.3rem; }
+            #mainNosotros .h1 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros .h2 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros .h3 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros .h4 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros .h5 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros .h6 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros h1 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros h2 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros h3 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros h4 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros h5 .p div #nosotrosM #formularioN div #enviarF, #mainNosotros h6 .p div #nosotrosM #formularioN div #enviarF {
+              display: flex;
+              justify-content: start;
+              align-items: flex-start;
+              flex-wrap: wrap;
+              align-content: flex-end; }
+
+footer div {
+  min-height: 20vh;
+  height: auto;
+  background-color: #09090a; }
+  footer div #footerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 1rem;
+    background-color: #09090a; }
+  footer div a {
+    color: white;
+    text-decoration: none; }
+  footer div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+  footer div .h1, footer div .h2, footer div .h3, footer div .h4, footer div .h5, footer div .h6, footer div h1, footer div h2, footer div h3, footer div h4, footer div h5, footer div h6 {
+    color: #595999; }
+
+header nav {
+  height: 9vh;
+  background-color: black; }
+  header nav .navbar-nav {
+    justify-content: end; }
+  header nav .navbar > .container {
+    padding: 0 3rem; }
+  header nav .row {
+    justify-content: center; }
+  header nav div .nav-link {
+    color: white; }
+
+#contactoM {
+  height: 100vh;
+  background-color: black; }
+  #contactoM .h1, #contactoM .h2, #contactoM .h3, #contactoM .h4, #contactoM .h5, #contactoM .h6, #contactoM h1, #contactoM h2, #contactoM h3, #contactoM h4, #contactoM h5, #contactoM h6 {
+    color: #595999;
+    display: flex;
+    justify-content: center; }
+    #contactoM .h1 p, #contactoM .h2 p, #contactoM .h3 p, #contactoM .h4 p, #contactoM .h5 p, #contactoM .h6 p, #contactoM h1 p, #contactoM h2 p, #contactoM h3 p, #contactoM h4 p, #contactoM h5 p, #contactoM h6 p {
+      display: flex;
+      justify-content: center;
+      color: white; }
+
+footer div {
+  min-height: 20vh;
+  height: auto;
+  background-color: #09090a; }
+  footer div #footerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0 1rem;
+    background-color: #09090a; }
+  footer div a {
+    color: white;
+    text-decoration: none; }
+  footer div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+  footer div .h1, footer div .h2, footer div .h3, footer div .h4, footer div .h5, footer div .h6, footer div h1, footer div h2, footer div h3, footer div h4, footer div h5, footer div h6 {
+    color: #595999; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  overflow-x: hidden; }
+
+@media (max-width: 1200px) {
+  #extrasM {
+    height: 95vh; } }
+
+@media (max-width: 991px) {
+  header nav .navbar-nav {
+    justify-content: center; }
+  .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  main {
+    height: auto; }
+  #sectionUno {
+    height: auto; }
+  #sectionDos {
+    height: auto; }
+  #nosotrosM {
+    height: 90vh; }
+  #mainNosotros {
+    height: auto; }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0px; }
+  .nav-link {
+    padding: 10px; }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+    margin-right: 0; }
+  main {
+    height: auto; }
+  #sectionUno {
+    height: auto; }
+  #sectionDos {
+    height: auto; }
+  #nosotrosM {
+    height: auto; }
+  #formularioN {
+    height: auto; }
+  #extrasM {
+    height: auto; } }
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0px; }
+  .navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .nav-link {
+    padding: 10px; }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+    margin-right: 0; } }
+
+@media (max-width: 767px) and (max-width: 576px) {
+  header {
+    height: 18vh; }
+  main {
+    height: auto; }
+  #sectionUno {
+    height: auto; }
+  #sectionDos {
+    height: auto; }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px; }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    margin: 0; }
+  .nav-link {
+    padding: 10px; }
+  .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  #turnosWeb {
+    justify-content: center;
+    align-items: center; }
+    #turnosWeb div {
+      align-items: center; } }

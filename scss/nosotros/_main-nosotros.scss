@@ -1,0 +1,61 @@
+#mainNosotros{
+    height: auto;
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: $color-letra-titulo;
+        display: flex;
+        justify-content: center;
+    .p {
+        display: flex;
+        justify-content: center;
+        color: $color-letra;
+        div{
+            display: flex;
+            justify-content: center;
+            color: $color-letra;
+            #nosotrosM{
+                color: $color-letra;
+                #presentacionNosotros{
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                #formularioN{
+                    display: flex;
+                    justify-content:flex-end;
+
+                    #nombreF {
+                        display: flex;
+                        justify-content: start;
+
+
+                        .form-control{
+                            display: flex;  
+                            padding: 1rem;
+                            border-radius: 0.3rem;
+                            color: #000000;
+                            height: 2rem;
+                            width: 1rem;
+                        }
+                    }
+                    div{
+                        #comentarioF{
+                            border-radius: 0.3rem;
+                        }
+                    }
+                    div{
+                        #enviarF{
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-end;
+                        
+                        }
+                    }
+                
+                }
+            }
+    }
+    }
+    }
+
+
+}

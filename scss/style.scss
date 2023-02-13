@@ -1,0 +1,164 @@
+@import "./variables";
+@import "./mixin";
+@import "./inicio/inicio";
+@import "./clases/clases";
+@import "./productos/productos";
+@import "./nosotros/nosotros";
+@import "./contacto/contacto";
+
+* {
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+    overflow-x: hidden!important;
+}
+
+
+
+element.style {
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100%!important;
+}
+
+@media (max-width: 1200px){
+    #extrasM{
+        height: 95vh;
+    }
+}
+
+
+@media (max-width: 991px){
+    header nav .navbar-nav {
+        justify-content: center;
+    }
+    .navbar-brand{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main{
+        height: auto;
+    }
+    #sectionUno{
+        height: auto;
+    }
+   #sectionDos{
+        height: auto;
+   }
+   #nosotrosM{
+    height: 90vh;
+   }
+   #mainNosotros {
+    height: auto;
+   }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        padding: 0px
+    }
+    .nav-link{
+        padding: 10px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: center;
+        margin-right: 0;
+    }
+    main{
+        height: auto;
+    }
+    #sectionUno{
+        height: auto;
+    }
+   #sectionDos{
+        height: auto;
+   }
+   #nosotrosM{
+    height: auto;
+   }
+   #formularioN{
+    height: auto;
+   }
+   #extrasM{
+    height: auto;
+   }
+
+}
+
+
+@media (max-width: 767px) { 
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        padding: 0px
+    }
+    .navbar-brand{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav-link{
+        padding: 10px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: center;
+        margin-right: 0;
+}
+#mainNosotros{
+    form{
+        #comentarioF{
+            width: auto!important;
+            padding-right: 2rem!important;
+    }
+}
+
+@media (max-width: 576px){
+    header{
+        height: 18vh;
+    }
+    main{
+        height: auto;
+    }
+    #sectionUno{
+        height: auto;
+    }
+   #sectionDos{
+        height: auto;
+   }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        margin: 0;
+    }
+    .nav-link{
+        padding: 10px;
+    }
+    .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #turnosWeb{
+        justify-content: center;
+        align-items: center;
+        div{
+            align-items: center;
+        };
+    }
+
+}}}
